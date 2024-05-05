@@ -1,0 +1,51 @@
+#navber_section {
+  .nav_main {
+    position: fixed;
+    width: 100%;
+    .navbar-toggler {
+      &:focus {
+        box-shadow: none;
+      }
+      i {
+        color: orange;
+      }
+    }
+    .navbar-brand {
+      img {
+        width: 100px;
+      }
+    }
+    ul {
+      li {
+        padding: 0 20px;
+        a {
+          font-size: 18px;
+          font-weight: 600;
+          color: black;
+          border: 1px solid transparent;
+          border-radius: 4px;
+          text-transform: capitalize;
+          &:hover {
+            border: 1px solid black;
+            color: orange;
+          }
+        }
+      }
+    }
+    .cv_bttn{
+        a{
+            color: orange;
+            font-size: 18px;
+            padding: 10px 15px;
+            background-color: black;
+            border: 1px solid orange;
+            border-radius: 5px;
+            &:hover{
+                background-color: transparent;
+                color: black;
+                border: 1px solid orange;
+            }
+        }
+    }
+  }
+}
